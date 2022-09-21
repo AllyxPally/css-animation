@@ -1,0 +1,25 @@
+.container{
+    width: 1300px;
+    height: 800px;
+    position: absolute;
+    background-color: rgb(97, 91, 139);
+}
+
+.animate__animated{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 30px;
+    color: palevioletred;
+}
+
+.h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color:burlywood;
+}
