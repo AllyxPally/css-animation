@@ -17,8 +17,6 @@
 }
 
 
-
-
 img {
     
     align-items: center;
@@ -32,7 +30,7 @@ img {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    object-fit:contain;
+    object-fit: cover;
     animation: movingImg 4s ease-in infinite;
 
 }
@@ -50,17 +48,18 @@ img {
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    background-color: forestgreen;
+    background-color: rgb(254, 68, 0);
 }
 
 .btn:hover{
-    background-color: palegreen;
+    background-color: peachpuff;
     transition: ease-in-out;
 }
 
 .btn-2{
     display: inline-block;
     justify-content: center;
+    align-self: center;
     bottom: 15px;
     width: 70px;
     height: 70px;
@@ -71,16 +70,22 @@ img {
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    background-color: blue; 
+    background-color: rgb(218, 82, 197); 
 }
 
 .btn-2:hover{
-    background-color: lightblue;
+    background-color: lightpink;
     transition: ease-in-out;
 }
-    
-  
 
+.btns{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 60px;
+    
+}
+    
 
 @keyframes movingImg {
     0% {transform: scale(1) rotateX(0deg);}
